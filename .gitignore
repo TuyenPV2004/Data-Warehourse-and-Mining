@@ -31,7 +31,8 @@ web/backend/.venv/
 # Env files
 .env
 .env.*
-.env.example
+!.env.example
+!**/.env.example
 
 # Node / Frontend
 node_modules/
